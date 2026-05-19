@@ -1,19 +1,24 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Strona Eksploracji Kosmosu
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Prosty, nowoczesny projekt typu **Hero Section** o tematyce kosmicznej, stworzony przy użyciu czystego kodu **HTML5** oraz **CSS3**. Witryna została zaprojektowana z myślą o futurystycznym wyglądzie i działa w oparciu o środowisko deweloperskie **Vite**.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+https://magnificent-cranachan-d72f05.netlify.app/
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+---
 
-Happy Coding!
+## Funkcjonalności i techniki wizualne
+
+* **Futurystyczna typografia:** W projekcie zaimplementowano zewnętrzny font **Orbitron** pobierany z Google Fonts, który idealnie wpisuje się w kosmiczny i technologiczny klimat strony.
+* **Pełnowymiarowe tło (Hero Background):** Sekcja `#hero` wykorzystuje grafikę galaktyki, rozciągniętą na całą dostępną przestrzeń za pomocą właściwości `background-size: cover`.
+* **Efekty tekstowe (Text Effects):** Aby zapewnić doskonały kontrast i czytelność tekstu na dynamicznym tle gwiazd, do nagłówka głównego dodano cień `text-shadow: 0px 0px 4px black`.
+* **Semantyczne akcenty:** Słowo kluczowe zostało wyróżnione za pomocą dedykowanej klasy `.underline`, która dodaje eleganckie, grube, białe dolne obramowanie, zamiast standardowego podkreślenia tekstu.
+
+---
+
+## Zastosowane technologie
+
+* **HTML5** – semantyczna struktura strony docelowej (`<div>`, `<h1>`, `<h3>`, `<button>`).
+* **CSS3** – pozycjonowanie tła, stylowanie przycisków, cienie tekstowe, integracja zewnętrznych fontów.
+* **Vite** – nowoczesny bundler zapewniający natychmiastowe odświeżanie zmian w przeglądarce (HMR).
+
+---
